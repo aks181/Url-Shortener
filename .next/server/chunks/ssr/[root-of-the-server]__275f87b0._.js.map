@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 8, "column": 0}, "map": {"version":3,"sources":["file:///D:/Github/Url-Shortener/app/dashboard/page.tsx"],"sourcesContent":["export default function DashboardPage() {\r\n  return (\r\n    <main className=\"p-8\">\r\n      <h1 className=\"text-2xl font-bold\">Dashboard</h1>\r\n      <p className=\"text-muted-foreground mt-2\">Your links will appear here.</p>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,8OAAC;gBAAE,WAAU;0BAA6B;;;;;;;;;;;;AAGhD","debugId":null}}]
+}

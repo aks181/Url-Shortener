@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 8, "column": 0}, "map": {"version":3,"sources":["file:///D:/Github/Url-Shortener/app/page.tsx"],"sourcesContent":["import { auth } from \"@clerk/nextjs/server\";\r\nimport { redirect } from \"next/navigation\";\r\n\r\nexport default async function Home() {\r\n  const { userId } = await auth();\r\n  if (userId) redirect(\"/dashboard\");\r\n\r\n  return (\r\n    <main className=\"min-h-screen flex flex-col items-center justify-center p-8\">\r\n      <h1 className=\"text-4xl font-bold mb-4\">UrlShortener</h1>\r\n      <p className=\"text-lg text-gray-500\">Shorten your URLs quickly and easily.</p>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;AACA;AAAA;;;;AAEe,eAAe;IAC5B,MAAM,EAAE,MAAM,EAAE,GAAG,MAAM,IAAA,2LAAI;IAC7B,IAAI,QAAQ,IAAA,iMAAQ,EAAC;IAErB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAA0B;;;;;;0BACxC,8OAAC;gBAAE,WAAU;0BAAwB;;;;;;;;;;;;AAG3C","debugId":null}}]
+}
