@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///D:/Github/Url-Shortener/app/page.tsx"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <main className=\"min-h-screen flex flex-col items-center justify-center p-8\">\r\n      <h1 className=\"text-4xl font-bold mb-4\">UrlShortener</h1>\r\n      <p className=\"text-lg text-gray-500\">Shorten your URLs quickly and easily.</p>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAA0B;;;;;;0BACxC,8OAAC;gBAAE,WAAU;0BAAwB;;;;;;;;;;;;AAG3C","debugId":null}}]
-}
